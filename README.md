@@ -1,6 +1,6 @@
 # Event-Driven-Simulation-of-Priority-Based-Queuing-System 
 
-This project implements the simulation for a queueing network with two classes of customers. There are two queues in the network. The queue capacities are assumed to be inﬁnite, and each queue has a single server. High-priority customers in each queue are always served before low-priority customers in each queue; however, if a low-priority customer is already in service, it will not be pre-empted by a high-priority customer.
+This project implements the simulation for a queuing network with two classes of customers. There are two queues in the network. The queue capacities are assumed to be inﬁnite, and each queue has a single server. High-priority customers in each queue are always served before low-priority customers in each queue; however, if a low-priority customer is already in service, it will not be pre-empted by a high-priority customer.
 
 Customers arrive to the overall system according to a Poisson process with rate λ customers per second. With probability pH , the customer will be a high-priority customer, and with probability pL = 1 − pH , the customer will be a low-priority customer. Low-priority customers will always arrive to Queue 1, and high-priority customers will always arrive to Queue 2.
 
