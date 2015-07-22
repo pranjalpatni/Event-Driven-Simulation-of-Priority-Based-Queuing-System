@@ -17,14 +17,12 @@ A discrete event simulation needs to be implemented for the above system. The si
 3- Average time each priority customer spends in Queue 1 (including service time) during a single visit to Queue 1
 
 #How to compiple the code:
-
 javac Event.java Exp_rv.java Main.java QueuingSystem.java
 
 #How to run the code:
-
 java Main
 
 
 #How to change input values:
 The input values are passed in the Main function as arguments in the following order:
-<PH, PL, r11L, r12L, r2d, r21, mu1, mu2, lambda>
+PH, PL, r11L, r12L, r2d, r21, mu1, mu2, lambda
