@@ -26,6 +26,5 @@ java Main
 
 
 #How to change input values:
-
 The input values are passed in the Main function as arguments in the following order:
 <PH, PL, r11L, r12L, r2d, r21, mu1, mu2, lambda>
